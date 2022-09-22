@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <link rel="stylesheet" href="./css/style.css">
+        <title>GeekInformatica | Tienda online de computacion</title>
+        <link rel="shortcut icon" href="./imagenes/iconGeek.png">
+    </head>
+<body>
+    <header class="headerProductos">
+        <div class="productos__logo">
+                <img src="./imagenes/logoGeek.png" alt="">
+        </div>
+        <div class="productos__form">
+            <form>
+               <span><input type="text" name="" id="buscadorDeproductos" placeholder="Busca tu producto ideal"><a class="lupa__busqueda" id="ingresarBusqueda" href=""><img  src="./imagenes/search.png" alt=""></a> </span> 
+            </form>
+        </div>
+    </header>
+    <section class="navbarproductos">
+        <div class="navbar__flex">
+            <a href="./index.html">Home</a>
+            <a href="./armatupc.html">Armar mi pc</a>
+            <a href="./contacto.html">Contacto</a>
+        </div>
+        <div class="productos__carritos">
+           <a class="productos__carritolink" href=""><img src="./imagenes/carrito-de-compras.png" alt=""></a> 
+        </div>
+    </section>
+    <main>
+        <section class="seccion__productos">
+            <div class="productos__grid">
+                <aside class="productos__filtroaside">
+                    <div class="productos__filtrado">
+                        <details>
+                            <summary>Netbooks <span class="producto__flecha"><img src="./imagenes/flechasumar.png" alt=""></span></summary>
+                            <a id="netbooksAside" class="productos__a" href="">Netbooks()</a>
+                        </details>
+                        <details>
+                            <summary>Componenetes de pc <span class="producto__flecha"><img src="./imagenes/flechasumar.png" alt=""></span></summary>
+                            <a id="procesadoresAside" class="productos__a" href="">Procesadores()</a>
+                            <a id="mothersAside" class="productos__a" href="">Mothers()</a>
+                            <a id="ramsAside" class="productos__a" href="">Rams()</a>
+                            <a id="graficasAside" class="productos__a" href="">Graficas()</a>
+                            <a id="almacenamientoAside" class="productos__a" href="">Almacenamiento()</a>
+                            <a id="fuentesAside" class="productos__a" href="">Fuentes()</a>
+                        </details>
+                        <details>
+                            <summary>Perifericos  <span class="producto__flecha"><img src="./imagenes/flechasumar.png" alt=""></span></summary>
+                            <a id="mousesAside" class="productos__a" href="">Mouses()</a>
+                            <a id="tecladosAside" class="productos__a" href="">Teclados()</a>
+                            <a id="auricularesAside" class="productos__a" href="">Auriculares()</a>
+                        </details>
+                        <details>
+                            <summary>Consolas <span class="producto__flecha"><img src="./imagenes/flechasumar.png" alt=""></span></summary>
+                            <a id="microsoftAside" class="productos__a" href="">Microsoft()</a>
+                            <a id="sonyAside" class="productos__a" href="">Sony()</a>
+                        </details>
+                    </div>
+            </aside>
+            <section> 
+                <form id="buscador">
+                    <div class="buscador__flex">
+                        <div class="buscadores">
+                            <select class="" id="marca">
+                                <option value="">Seleccione marca</option>
+                                <option value="logitech">Logitech</option>
+                                <option value="redragon">Redragon</option>
+                                <option value="razer">Razer</option>
+                                <option value="hiperex">HipereX</option>
+                                <option value="amd">AMD</option>
+                                <option value="microsoft">Microsoft</option>
+                                <option value="sony">Sony</option>
+                                <option value="gigabyte">Gigabyte</option>
+                                <option value="aerocool">Aerocool</option>
+                                <option value="intel">Intel</option>
+                                <option value="asus">Asus</option>
+                                <option value="fury">Fury</option>
+                                <option value="kingston">Kingston</option>
+                                <option value="westernDigital">Western-Digital</option>
+                                <option value="samsung">Samsung</option>
+                                <option value="msi">MSI</option>
+                                <option value="seasonic">Seasonic</option>
+                                <option value="gamemax">Gamemax</option>
+                                <option value="syx">SYX</option>
+                            </select>
+                        </div>
+                        <div class="buscadores">
+                            <select class="" id="minimo">
+                                    <option value="">Seleccione precio MIN</option>
+                                    <option value="1000">1000</option>
+                                    <option value="10000">10000</option>
+                                    <option value="20000">20000</option>
+                                    <option value="50000">50,000</option>
+                                    <option value="60000">60,000</option>
+                                    <option value="70000">70,000</option>
+                                    <option value="80000">80,000</option>
+                                    <option value="90000">90,000</option>
+                            </select>
+                        </div>
+                        <div class="buscadores">
+                            <select class="" id="maximo">
+                                    <option value="">Seleccione precio MAX</option>
+                                    <option value="20000">20,000</option>
+                                    <option value="30000">30,000</option>
+                                    <option value="40000">40,000</option>
+                                    <option value="50000">50,000</option>
+                                    <option value="60000">60,000</option>
+                                    <option value="70000">70,000</option>
+                                    <option value="80000">80,000</option>
+                                    <option value="90000">90,000</option>
+                            </select>
+                        </div>
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+                    </div>
+                </form>
+
+                <div class="productos__cardgrid" id="productos">
+                   <!-- <div class="productos"> <span class="producto__imagen"></span> <span class="producto__background"><span class="productos__contenido"> <img class="productos__backgroundB" src="/imagenes/background.png" alt=""><div class="texto__producto"><h4>Producto1</h4> <div class="linea"></div> <p>Valor: $2000</p> <a class="btnInformacion" href="">Mas informacion</a></div> <span  class="boton__añadir"><a href="">Añadir al carrito</a></span> </span></div>
+
+                   <div class="productos"> <span class="producto__imagen2"></span> <span class="producto__background"><span class="productos__contenido"> <img class="productos__backgroundB" src="/imagenes/background.png" alt=""><div class="texto__producto"><h4>Producto1</h4> <div class="linea"></div> <p>Valor: $2000</p> <a class="btnInformacion" href="">Mas informacion</a> </div> <span class="boton__añadir"><a href="">Añadir al carrito</a></span> </span></div>
+
+                   <div class="productos"> <span class="producto__imagen3"></span> <span class="producto__background"><span class="productos__contenido"> <img class="productos__backgroundB" src="/imagenes/background.png" alt=""><div class="texto__producto"><h4>Producto1</h4> <div class="linea"></div> <p>Valor: $2000</p> <a class="btnInformacion" href="">Mas informacion</a> </div> <span class="boton__añadir"><a href="">Añadir al carrito</a></span> </span></div>
+
+                   <div class="productos"> <span class="producto__imagen4"></span> <span class="producto__background"><span class="productos__contenido"> <img class="productos__backgroundB" src="/imagenes/background.png" alt=""><div class="texto__producto"><h4>Producto1</h4> <div class="linea"></div> <p>Valor: $2000</p> <a class="btnInformacion" href="">Mas informacion</a> </div> <span class="boton__añadir"><a href="">Añadir al carrito</a></span> </span></div>
+
+                   <div class="productos"> <span class="producto__imagen"></span> <span class="producto__background"><span class="productos__contenido"> <img class="productos__backgroundB" src="/imagenes/background.png" alt=""><div class="texto__producto"><h4>Producto1</h4> <div class="linea"></div> <p>Valor: $2000</p> <a class="btnInformacion" href="">Mas informacion</a> </div> <span class="boton__añadir"><a href="">Añadir al carrito</a></span> </span></div>
+
+                   <div class="productos"> <span class="producto__imagen"></span> <span class="producto__background"><span class="productos__contenido"> <img class="productos__backgroundB" src="/imagenes/background.png" alt=""><div class="texto__producto"><h4>Producto1</h4> <div class="linea"></div> <p>Valor: $2000</p> <a class="btnInformacion" href="">Mas informacion</a> </div> <span class="boton__añadir"><a href="">Añadir al carrito</a></span> </span></div> -->
+                </div>
+                <div class="background__popup backgroundpopup-show" id="backgroundPopup">
+                    <div class="pruebapopup" id="pop-up">
+                        <a class="btn-popup" href="#">salir</a>
+                    </div>
+                </div>
+                <div class="background__popup backgroundpopup-show" id="backgroundPopupcompra">
+                    <div class="compra__popup" id="pop-upCompra">
+                        
+                        <div class="datos__popup" id="pop-upDatos"></div>
+                        <div class="cantidad__popup" id="cantidadProductos"></div>
+                        <div id="spinner" class="pr"></div>
+                        <div class="btn__flex">
+                            <button class="btn__compra" id="btnCancelar" >
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <span></span> Cancelar
+                            </button>
+                          
+                            <button class="btn__compra" id="btnFinalizar" >
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <span></span> Agregar al carrito
+                            </button>
+                            
+                        </div>
+                        <div id="btn__inhabilitar" class="fixed">
+                            <div class="btnCompra__Inhabilitar">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div id="barra__cambio" class="barra__cambio">
+                    <span class="btnSig"><img class="img-1" id="img1" src="./imagenes/flechapasar.png" alt=""></span>
+                    <p id="contador1"></p>
+                    <span class="btnSig"><img class="img-2" id="img2" src="./imagenes/flechapasar.png" alt=""></span> 
+                </div>
+                <div id="cajaConfirmacion" class="fixed no-view">
+                    <div class="cartelConfirmacion">
+                        <p>Producto añadido al carrito</p>
+                    </div>
+                </div>
+
+            </section> 
+            </div>
+
+            <div class="carrito background__popup backgroundpopup-show " id="carrito">                     
+                <div class="background__carrito">
+                    <div  class="d-flex subrayado titulo__carrito">
+                        <h2>Carrito y finalizacion de compra</h2>
+                    </div>
+                    <div id="appendParacarrito"></div>
+                    <div class="items__productos">
+                        <div class="item__total">
+                            <p>Total de la compra:</p>
+                            <p id="totalDelacompra">$<span>0</span></p>
+                        </div>
+                       
+                    </div>
+                    <div class="links__productos">
+                        <a  id="btnContinuar" href="">Seguir comprando</a>
+                        <a id="btnEliminarpr"href="">Eliminar productos</a>
+                        <div id="btnInhabilitarterminar" class="fixed no-view"><div class="terminarCompra__inhabilitar "></div></div>
+                        <a id="btnFinalizarcompra" href="./finalizaciondecompra.html">Terminar compra</a>
+                        
+                    </div>
+                </div>
+               
+                
+            </div>
+            <div id="productoEliminado" class="fixed no-view">
+                <div class="productoEliminado">
+                    <p>Producto eliminado!</p>
+                </div>
+            </div>
+        </section> 
+
+        <!-- <p style="text-align: center; font-size: 2rem; letter-spacing: 0.5rem; background-color: yellow; color: black;"><span id="EFECTIVO"></span></p>
+        <p style="text-align: center; font-size: 2rem; letter-spacing: 0.5rem; background-color: yellow; color: black;"><span id="EFECTIVO2"></span></p>
+        <p style="text-align: center; font-size: 2rem; letter-spacing: 0.5rem; background-color: yellow; color: black;"><span id="CUOTAS2"></span></p>
+        <p style="text-align: center; font-size: 2rem; letter-spacing: 0.5rem; background-color: yellow; color: black;"><span id="PCLIST"></span></p>
+        <p style="text-align: center; font-size: 2rem; letter-spacing: 0.5rem; background-color: yellow; color: black;"><span id="CUOTAS"></span></p> -->
+    </main>
+    <script
+    src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+    crossorigin="anonymous"></script>
+     <script src="./js/db.js"></script>
+     <script src="./js/main.js"></script>  
+</body>
+<footer class="footer">
+    <div class="redes-sociales">
+      <div class="footerh4"><h4>Nuestras redes sociales</h4></div>
+      
+      <div class="redesicon">
+        <div><a href=""><img class="redes-sociales-icons" src="./imagenes/instagram.png" alt=""></a></div>
+        <div><a href=""><img class="redes-sociales-icons" src="./imagenes/twitter.png" alt=""></a></div>
+        <div><a href=""><img class="redes-sociales-icons" src="./imagenes/whatsapp.png" alt=""></a></div>
+      </div>
+      <div class="marcapersonal">
+        <h4>Creado por ESNEIDER ARANZALES</h4>
+        <img class="cohetefooter" src="./imagenes/cohete.gif" alt="">
+      </div>
+    </div>
+   
+    <div class="flechayform">
+      <div>
+        <img class="flechafooter" src="./imagenes/Flecha.png" alt="">
+      </div>
+      <div class="forminput">
+        <form>
+          <input type="text" placeholder="Ingrese su correo para recibir novedades">
+        </form>
+      </div>
+    </div>
+    <div class="btn-arrepentimiento">
+      <img src="./imagenes/delete-button.png" alt="">
+      <h4>Boton de arrepentimiento</h4>
+    </div>
+  </footer>
+
+</html>

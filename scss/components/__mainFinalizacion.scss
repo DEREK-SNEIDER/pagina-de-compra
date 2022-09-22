@@ -1,0 +1,418 @@
+.seccion1__finalizacion{
+    background-color: black;
+    height: auto;
+}
+.titulo__finalizacion{
+    display: flex;
+        h3{
+            margin: auto;
+            margin-top: 2rem;
+            font-size: 3rem;
+        }
+}
+
+.grid__finalizacion{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 2rem;
+    margin-top: 5rem;
+ 
+}
+
+
+.card1__finalizacion{
+    background-image: url(../imagenes/backCard1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: auto;
+    width: 550px;
+    height: 600px;
+}
+
+.card2__finalizacion{
+    background-image: url(../imagenes/backCard2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: auto;
+    width: 550px;
+    height: 600px;
+}
+
+.card1__filtro{
+    background-color: rgba(0, 0, 0, 0.37);
+    width: 550px;
+    height: 600px;
+    margin-bottom: -58em;
+}
+
+.card2__filtro{
+    background-color: rgba(0, 0, 0, 0.37);
+    width: 550px;
+    height: 600px;
+    margin-bottom: -58em;
+}
+
+.h3__cards {
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+.p__cards {
+    text-align: center;
+    font-size: 1.5rem;
+    filter: drop-shadow(0px 2px 1px rgb(0, 0, 0));
+}
+.p__retirar{
+    width: 200px;
+    margin: auto;
+    margin-top: 15rem;
+}
+.form__retirar{
+    height: 300px;
+    width: 400px;
+    margin: auto;
+    margin-bottom: -38rem;
+    background-color: rgba(0, 0, 0, 0.445);
+}
+
+.eleccion1__card1 {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    text-align: center;
+    font-size: 1.5rem;
+    margin-top: 2rem;
+}
+.form__background {
+    height: 450px;
+    width: 400px;
+    margin: auto;
+    margin-bottom: -42rem;
+    background-color: rgba(0, 0, 0, 0.445);
+}
+
+.formulario__card1{
+    display: flex;
+    flex-direction: column;
+    width: 25rem;
+    margin: auto;
+    margin-top: -44.5rem;
+        input{
+            outline: none;
+            text-align: center;
+            font-size: 1.5rem;
+            border-radius: 2rem;
+            border: solid 1px rgb(255, 0, 0);
+            padding: 0.5rem;
+        }
+       
+}
+.pregunta__card1{
+    margin-top: 2rem;
+}
+
+.label__card1{
+    text-align: center;
+    font-size: 2.2rem;
+}
+
+.submit__card1 {
+    margin-top: 1.2rem;
+    background-color: $violetaBoton;
+    color: white;
+    border: none !important;
+    padding: 1rem;
+    border-radius: 2rem
+}
+
+.card2__form1{
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    margin-top: 2rem;
+
+}
+.card2__form2{
+    display: flex;
+    gap: 2rem;
+    
+    justify-content: center;
+    
+}
+
+.total__card2 {
+    margin-top: 2rem;
+}
+
+.formulario__card2{
+    display: flex;
+    flex-direction: column;
+    width: 25rem;
+    margin: auto;
+    margin-top: -44rem;
+        input{
+            outline: none;
+            text-align: center;
+            font-size: 1.5rem;
+            border-radius: 2rem;
+            
+            padding: 0.5rem;
+        }
+      
+}
+
+.select__card2 {
+    font-size: 1.3rem;
+    text-align: center;
+    border-radius: 2rem;
+    border: none;
+    outline: none;
+}
+
+.btn__card2 {
+    display: flex;
+    justify-content: center;
+  
+     a{
+        color: white;
+        font-size: 1.5rem;
+        background-color: $violetaBoton;
+        padding: 1rem;
+        text-align: center;
+        width: 200px;
+        border-radius: 2rem;
+     }
+}
+
+.codigo__card2{
+    font-size: 2rem;
+    text-align: center;
+    color: white;
+    filter: drop-shadow(0px 2px 1px rgb(0, 0, 0));
+}
+
+.p__preciototal {
+    margin-top: 2rem;
+    filter: drop-shadow(0px 2px 1px rgb(0, 0, 0));
+}
+
+.p__direccionConfirmada {
+    font-size: 2rem;
+    width: 200px;
+    text-align: center;
+    margin: auto;
+    margin-top: 22rem;
+}
+.img__confirmacion {
+    width: 25px;
+    height: 25px;
+}
+.confimacion__background{
+    height: 200px;
+    width: 300px;
+    margin: auto;
+    margin-bottom: -38rem;
+    background-color: rgba(0, 0, 0, 0.445);
+}
+
+.sesion__background{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.452);
+    width: 100vw;
+    height: 100vh;
+}
+.sesion__card{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #373333;
+    width: 400px;
+    height: auto;
+    margin: auto;
+    margin-top: 8rem;
+    font-size: 2rem;
+    border-radius: 0.4rem;
+}
+
+.sesion__input{
+    width: 300px;
+    border-radius: .8rem;
+    outline: none;
+    border: none;
+    padding: .5rem 3.2rem;
+    height: 34px;
+    
+   
+}
+
+.sesion__imagenes{
+    position: relative;
+    width: 29px;
+    right: -3rem;
+    top: -0.1rem;
+    height: 29px;
+    border-right: solid 1px gray;
+}
+
+.sesion__btnIncio{
+    background-color: $violetaBoton;
+    width: 300px;
+    margin: auto;
+    margin-top: 2rem;
+    margin-bottom: -1rem;
+    font-size: 2rem;
+    color: $blanco;
+    border-radius: 2rem;
+        &:hover{
+            color: yellow;
+        }
+}
+.sesion__h3{
+    font-size: 3rem;
+    margin-top: 2rem;
+}
+.sesion__nombre{
+    margin-top: 2rem;
+}
+
+.sesion__resets{
+    display: flex;
+    gap: 10rem;
+    margin: auto;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    font-size: 1.4rem;
+        a{
+            color: $blanco;
+                &:hover{
+                    color: yellow;
+                }
+        }
+}
+
+.sesion__error {
+    font-size: 1.5rem;
+    background-color: black;
+    width: 300px;
+    margin: auto;
+    margin-top: 2rem;
+    padding: 1.2rem;
+    border: solid 1px red;
+}
+
+.sesion__user{
+    gap: 1rem;
+    align-items: center;
+        p{
+            font-size: 21px;
+            margin: 0;
+        }
+}
+
+
+.errorInput{
+    border: solid 1px rgb(255, 2, 2) !important;
+}
+.okInput{
+    border: solid 1px rgb(10, 255, 2) !important;
+}
+.inputOpcional{
+    border: none !important;
+}
+
+.errormsg {
+    background-color: $negro;
+    font-size: 1.5rem;
+    text-align: center;
+    margin-top: 1rem;
+    border-radius: .3rem;
+    border: solid 1px red;
+}
+
+.validacionCompra{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0);
+    top: -14rem;
+    right: 10rem;
+    width: 400px;
+    height: 200px;
+}
+
+.session__pagoConfirmado{
+    font-size: 2rem;
+    text-align: center;
+    width: 300px;
+    margin: auto;
+    margin-top: 18rem;
+}
+
+.sesion__form{
+    width: 300px;
+    height: 260px;
+}
+.cuotas__background{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.452);
+    width: 100vw;
+    height: 100vh;
+}
+.modal__cuotas{
+    position: absolute;
+    top: 40%;
+    background-color: rgba(0, 0, 0, 0.582);
+    font-size: 2rem;
+    width: 800px;
+    text-align: center;
+    right: 16%;
+    width: auto;
+    padding: 2rem;
+
+}
+.btn__estimador{
+    background-color: #920b92;
+    margin-top: 1rem;
+    width: auto;
+    height: 30px;
+    color: white;
+    border: none;
+    border-radius: 0.3rem;
+    font-size: 1.2rem;
+}
+.btn__interno{
+    background-color: #920b92;
+    margin-top: 1rem;
+    width: 100px;
+    height: 30px;
+    color: white;
+    border: none;
+    border-radius: 0.3rem;
+    font-size: 1.2rem;
+}
+.btn__tarjetasdisponibles{
+    background-color: #3f0b92;
+    width: auto;
+    color: white;
+    margin-top: .4rem;
+    border: none;
+    border-radius: 0.3rem;
+    font-size: 1.2rem;
+}
+
+.divBackgroundTarjeta{
+    width: 250px;
+    position: absolute;
+    height: auto;
+    background-color: black;
+}
+
+.textoTarjeta{
+    font-size: 1.5rem;
+    text-align: center;
+        
+}

@@ -1,0 +1,121 @@
+.headerProductos {
+    background-image: url(../imagenes/headerProductos.png);
+    width: auto;
+    height: 350px;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.productos__logo{
+    display: flex;
+    img {
+    width: 250px;
+    height: 250px;
+    }
+}
+
+.productos__form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     margin-top: -8rem;
+        form{
+           span {
+               display: flex;
+            input {
+                width: 520px;
+                padding: 2rem;
+                border-radius: 5rem;
+                outline: none;
+                border: none;
+                font-size: 1.4rem;
+            }
+            img {
+                width: 40px;
+                height: 40px;
+                margin-left: -6rem;
+                margin-top: 1rem;
+            }
+           }
+            
+        }
+}
+.lupa__busqueda{
+    
+}
+
+.navbarproductos {
+    background-color: #000000 ;
+    width: auto;
+    height: 7rem;
+}
+
+.navbar__flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    gap: 6rem;
+    a{
+        margin-top: 1.5rem;
+        font-size: 2.5rem;
+        color: $blanco;
+        transition: 1s;
+        &:hover {
+            transition: 1s;
+            color: yellow;
+        }
+    }
+}
+
+.productos__carritos {
+    display: flex;
+    margin-top: -4.5rem;
+    margin-right: 13.5rem;
+    justify-content: end;
+    img{
+    width: 50px;
+    height: 50px;}
+}
+
+.links__productos {
+    display: flex;
+    font-size: 1.3rem;
+    width: 700px;
+    margin: auto;
+    margin-top: 3rem;
+    padding-bottom: 2rem;
+        a {
+            background-color: $violetaBoton;
+            padding: 1rem 2rem;
+            color: $blanco;
+            border-radius: 2rem;
+        }    
+}
+
+.background__carrito {
+    background-color: rgba(0, 0, 0, 0.781);
+    width: 80vw;
+    height: auto;
+    margin: auto;
+    margin-top: 5.5rem;
+    border-radius: .8rem;
+    box-shadow:
+    0px 15px 100px 39px rgba(30, 30, 60, 0.51),
+    0px 15px 100px 1px rgba(133, 6, 145, 1);
+        h2 {
+            font-size: 3.5rem;
+            color: rgb(255, 255, 255);
+            margin: auto;
+            margin-top: 2rem;
+            margin-bottom: 4rem;
+        }
+        p{
+           margin: auto;
+        }
+        a{
+            margin: auto;
+        }
+}
